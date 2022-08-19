@@ -85,5 +85,4 @@ app.use(staticMdl);
 
 app.listen({ port: process.env.PORT || 9000 }, async () => {
     await sequelize.authenticate();
-    console.log(`Auth connection has been established successfully on port ${port}.`);
 });
