@@ -6,6 +6,7 @@ const cors = require('cors');
 require('dotenv').config();
 const { registerValid, loginValid } = require('./app_valid.js');
 const history = require('connect-history-api-fallback');
+const path = require('path');
 
 const app = express();
 
